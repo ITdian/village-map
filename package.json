@@ -1,0 +1,60 @@
+{
+  "name": "AgLayer",
+  "description": "mapbox+threejs整合的框架",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "http://81.71.137.13:3000/summary/?r=~lidanyang/agLayer.git"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.3.0",
+    "@turf/turf": "^6.5.0",
+    "lodash": "^4.17.21",
+    "stats.js": "^0.17.0",
+    "three": "0.129.0",
+    "village-map": "^1.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/preset-flow": "^7.12.13",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^7.30.0",
+    "eslint-config-mourner": "^3.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^32.3.4",
+    "npm-font-open-sans": "^1.1.0",
+    "npm-packlist": "^2.1.4",
+    "npm-run-all": "^4.1.5"
+  },
+  "browser": {
+    "./src/shaders/index.js": "./src/shaders/shaders.js",
+    "./src/util/window.js": "./src/util/browser/window.js",
+    "./src/util/web_worker.js": "./src/util/browser/web_worker.js"
+  },
+  "scripts": {
+    "build": "babel src/index.js --out-file dist/AgLayer.js",
+    "prepublishOnly": "run-s"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "bugs": {},
+  "homepage": "",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "webgl"
+  ],
+  "author": "augurit-village"
+}

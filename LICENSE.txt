@@ -1,0 +1,7 @@
+AgLayer v1.0
+
+Mapbox Web SDK + ThreeJs
+
+Copyright (c) 2020, AgLayer
+
+All rights augurit.

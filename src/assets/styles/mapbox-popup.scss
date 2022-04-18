@@ -1,0 +1,59 @@
+.mapboxgl-popup{
+    .mapboxgl-popup-content{
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 14px;
+        button.mapboxgl-popup-close-button{
+            font-size: 20px;
+            height: 20px;
+            line-height: 20px;
+            margin-top: 3px;
+            margin-right: 3px;
+        }
+    }
+}
+.mapboxgl-popup.popup-position{
+    .mapboxgl-popup-content{
+        .row{
+            height: 24px;
+            line-height: 24px;
+            label{
+                margin-right: 30px;
+                text-align: right;
+            }
+            .text{
+
+            }
+        }
+    }
+}
+.mapboxgl-popup.popup-distance{
+    .mapboxgl-popup-content{
+        .row{
+            height: 24px;
+            line-height: 24px;
+            label{
+                margin-right: 30px;
+                text-align: right;
+            }
+            .text{
+
+            }
+        }
+    }
+}
+.mapboxgl-popup.popup-area{
+    .mapboxgl-popup-content{
+        .row{
+            height: 24px;
+            line-height: 24px;
+            label{
+                margin-right: 30px;
+                text-align: right;
+            }
+            .text{
+
+            }
+        }
+    }
+}
